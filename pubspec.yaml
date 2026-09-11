@@ -80,13 +80,13 @@ dependencies:
     git:
       url: https://github.com/bggRGjQaUbCoE/flutter_inappwebview.git
       path: flutter_inappwebview
-      ref: version_6.1.5
+      ref: v6.1.5
   # 解决sliver滑动不同步
   # extended_nested_scroll_view: ^6.2.1
   extended_nested_scroll_view:
     git:
       url: https://github.com/bggRGjQaUbCoE/extended_nested_scroll_view.git
-      ref: mod
+      ref: dev
   # 上拉加载
   # loading_more_list: ^7.1.0
   # 下拉刷新
@@ -156,10 +156,7 @@ dependencies:
   # system_proxy: ^0.1.0
   # pip
   # floating: ^3.0.0
-  floating:
-    git:
-      url: https://github.com/bggRGjQaUbCoE/floating.git
-      ref: version-3
+  floating: ^3.0.0
   # html解析
   html: ^0.15.4
   # html渲染
